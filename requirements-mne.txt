@@ -1,0 +1,2 @@
+-r requirements-fft.txt
+mne>=1.10,<2

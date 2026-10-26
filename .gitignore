@@ -1,0 +1,40 @@
+# Python environments and local dependencies
+.venv/
+venv/
+env/
+/.vendor/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated EEG recordings, analysis reports, and BCI sessions
+/recordings/
+/analysis/
+/bci_sessions/
+
+# Local configuration and reference files
+.env
+.env.*
+!.env.example
+/.yuque-reference.html
+
+# Editor and operating system files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
